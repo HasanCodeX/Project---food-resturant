@@ -10,6 +10,7 @@
 .btn {border-radius: 8px;
 background: rgb(82, 195, 3);
 
+
 /* Shop The Hotest Food */
 position: static;
 width: 218px;
@@ -33,7 +34,7 @@ margin: 0px 10px;
 /* font-layout */
 color: rgb(255, 255, 255);
 font-family: Work Sans;
-font-size: 20px;
+font-size: 12px;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
@@ -47,6 +48,12 @@ text-align: center;}
   align-items: center;
   color: #fff;
   text-align: center;
+}
+.btn-container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero .hero-content {
@@ -88,6 +95,4 @@ text-align: center;
     line-height: 28px;
     letter-spacing: 0%;
     text-align: center;
-  /* Shop The Hotest Food */}
-
-
+  }
