@@ -249,3 +249,78 @@ body {
   color: #0073e6;
   transform: scale(1.2);
 }
+
+
+/* footer  */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Footer Section */
+#footer-section {
+  background-color:  #fce4ec; /* Light pink background */
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #333; /* Dark text color for contrast */
+  position: relative;
+}
+
+#footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Footer Heading */
+#footer-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222; /* Slightly darker for better readability */
+  margin-bottom: 0.8rem;
+}
+
+#footer-subheading {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555; /* Medium gray text */
+}
+
+/* Social Links */
+#footer-social {
+  margin-top: 1rem;
+}
+
+#social-text {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  color: #222;
+}
+
+#social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-link {
+  color: #333;
+  font-size: 1.5rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-link:hover {
+  color: #d90429; /* Bright red on hover */
+  transform: scale(1.2);
+}
