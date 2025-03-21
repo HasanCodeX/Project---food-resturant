@@ -1,4 +1,4 @@
 live link :
 
 
-https://hasancodex.github.io/food-resturant-project/
+https://hasancodex.github.io/Project---food-resturant/
